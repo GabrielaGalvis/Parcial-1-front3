@@ -1,0 +1,52 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 200px;
+}
+
+.boton{background-color: rgb(83, 83, 226);
+width: 150px;
+margin: auto;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.input{
+    margin-bottom: 10px;
+}
+
+.tituloError{
+    color: red;
+    text-align: center;
+
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 2px solid rgb(83, 83, 226);
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+  }
+
+  .card{
+    border: black 1px solid ;
+    background-color: white;
+  }
+
+  .texto{
+    color: black;
+  }
